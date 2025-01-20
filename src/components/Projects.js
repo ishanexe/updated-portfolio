@@ -9,21 +9,21 @@ const Projects = () => {
       title: "Chat Application with Real-Time Data Translation", 
       description: "Developed a real-time chat application with text translation capabilities. This app allows users to communicate in multiple languages, with real-time translations provided instantly as messages are sent. Key features include dynamic text translation and seamless chat functionalities, making it easier for people to engage in multi-language conversations without barriers." ,
        tech: [
-        "React.js", "ExpressJS", "Node.js", "MongoDB"
+        "React.js", "Node.js",
       ]
     },
     { 
       title: "Agro Seva Portal - Empowering Farmers with Digital Tools", 
       description: "Developed a full-stack website, Agro Seva Portal, designed to help farmers access important services and information. The platform features user authentication, real-time weather updates, crop pricing, government scheme requests, and community interaction, aiming to empower farmers with digital tools and information to improve their productivity and knowledge." ,
       tech: [
-        "React.js", "ExpressJS", "Node.js", "MongoDB"
+        "React.js", "Node.js"
       ]
     },
     { 
       title: "Attendance Management System with Facial Recognition and Two-Factor Authentication", 
       description: "Created an Attendance Management System integrating facial recognition for student attendance tracking. The system also implements two-factor authentication for secure access, combining WiFi connection verification (via MAC address matching) and facial recognition with Python libraries like OpenCV and face_recognition for precise identification." ,
       tech: [
-        "tkinter", "openCV", "CNN", "face-recognition"
+        "Python", "CNN",
       ]
     },
     { 
