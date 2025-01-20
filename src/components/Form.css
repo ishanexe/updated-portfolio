@@ -1,0 +1,21 @@
+/* Add this to your Form.css */
+
+.modal {
+    z-index: 1050 !important;  /* Ensure modal is on top */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  input[type="email"], input[type="text"] {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .modal-dialog {
+      max-width: 90%; /* Ensure the modal takes up most of the screen on small devices */
+    }
+  }
+  

@@ -1,0 +1,72 @@
+/* Default styles for large screens */
+.container {
+    position: relative;
+    top: 200px;
+    right: 100px;
+  }
+
+  img{
+    position: relative;
+    left: 150px;
+  }
+
+  
+/* 
+
+  /* For medium screens (tablets) */
+  @media (max-width: 1450px) {
+    .container{
+      position: relative;
+      left: 120px;
+    }
+    
+  }
+
+  @media (max-width: 1000px) {
+    .container{
+      position: relative;
+      left: 100px;
+    }
+    img{
+      display: none;
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (max-width: 768px) {
+    .container {
+      top: 150px; /* Adjust top position for smaller screens */
+      padding: 20px;
+      position: relative;
+      left: 10px;
+    }
+  
+    .h4, .h3 {
+      font-size: 1 rem; /* Adjust font size for smaller screens */
+    }
+  
+    img{
+      display: none;
+    }
+    
+  }
+  
+  /* For small screens (mobile phones) */
+  @media (max-width: 576px) {
+    .container {
+      top: 100px; /* Adjust top position for very small screens */
+      padding: 10px;
+      position: relative;
+      left: 10px;
+      
+    }
+  
+    .h4, .h3 {
+      font-size: 1 rem; /* Adjust font size for smaller screens */
+    }
+    .img{
+      display: none;
+    }
+    
+  }
+  
