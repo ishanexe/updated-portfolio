@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import pic1 from './pic1.png'; // Ensure pic1.png is in the same directory as this file or adjust the path accordingly.
 import {Link} from "react-router";
+import TypeWriter from './TypeWriter';
 
 const Home = () => {
   return (
@@ -14,12 +15,13 @@ const Home = () => {
         <h1 className="display-4 font-monospace" style={{ opacity: 1, transform: 'none' }}>
           My name is <span className="text-primary">Ishan Dutta</span>
         </h1>
-        <h2
+        {/* <h2
           className="fs-2 font-monospace mb-4"
           style={{ opacity: 1, transform: 'none', '--bs-text-opacity': '.5' }}
         >
           I am a Full-Stack Developer
-        </h2>
+        </h2> */}
+        <TypeWriter/>
         <div className="d-flex gap-3 text-start">
         <Link to="/Contact">
           <button type="button" className="btn btn-warning font-monospace">
