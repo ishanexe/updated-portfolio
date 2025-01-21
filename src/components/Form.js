@@ -14,7 +14,7 @@ const Form = ({ click, handleModalClose }) => {
     };
 
     try {
-      const response = await fetch('http://localhost:5000/api/getInfo/myReq', {
+      const response = await fetch('https://bknd0.netlify.app/api/getInfo/myReq', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
