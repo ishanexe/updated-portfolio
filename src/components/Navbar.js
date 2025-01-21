@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg font-monospace" style={{ backgroundColor: '#0E273C' }}>
+    <nav className="navbar navbar-expand-lg font-monospace navbar-dark" style={{ backgroundColor: '#0E273C' }}>
       <div className="container-fluid">
         <Link className="navbar-brand text-white"  to="/">
             <strong>Ishan <span style={{ color: '#ffaa1d' }}>Dutta</span></strong>
